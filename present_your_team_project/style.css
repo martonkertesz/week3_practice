@@ -1,7 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #016A70;
+    
+}
+
 body {
-    background-color: #b89068;;
+    background-color: #FFFFDD;
+   
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    margin: 30px;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #a2c579ac;
+    border-radius: 30px;
+    font-size: 50px;
+    font-family: 'Mooli', sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+img {
+    max-width: 45vh;
+    max-height: 45vh;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    gap: 200px;
+    flex-wrap: wrap;
+
 }
 
 p {
-    color: #464d5c;
+    font-weight: 600;
 }
+
+span {
+    font-weight: 300;
+}
+
+h1 {
+    margin-bottom: 15px;
+   
+}
+
+.text{
+    max-width: 600px;
+}
+.blue {
+    color:blue;
+}
+.black {
+    color: black;
+}
+.beige {
+    color:rgb(204, 183, 141)
+}
+
+
+
+
